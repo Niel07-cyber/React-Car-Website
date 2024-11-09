@@ -1,0 +1,14 @@
+@media (max-width: 1400px) and (min-width: 1349px) {
+	.hero_slide_single img.hero_slide_single_img {
+		top: -20vh;
+	}
+}
+
+
+
+@media (max-width: 425px) {
+	.menu_desktop ul {
+		display: none;
+	}
+
+}
