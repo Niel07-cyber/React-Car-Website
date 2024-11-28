@@ -22,7 +22,7 @@ const bannerMapWithRoute = {
     },
     'legal': {
         classes: [],
-        backgroundImage: 'page_banner/Banner_Legal.jpg',
+        backgroundImage: 'page_banner/legall.jpg',
         childEl: () => {
             return <h1>
                 Legal Info
@@ -31,14 +31,14 @@ const bannerMapWithRoute = {
     },
     'about': {
         classes: [],
-        backgroundImage: 'captur/Exterior_banner.png',
+        backgroundImage: 'captur/Exterior_banner.jpg',
         childEl: () => {
             return <Fragment>
                 <h1 className="mb-15">
-                    Captur
+                    Toyota
                 </h1>
                 <p className="text-white">
-                    Europe’s best-selling crossover in its segment
+                    Americas’s best-selling crossover in its segment
                 </p>
             </Fragment>;
         }
